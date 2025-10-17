@@ -1,0 +1,38 @@
+/* theme.css */
+
+/* Define design tokens (colors, spacing, etc.) */
+
+:root {
+  /* Color palette */
+  --color-primary: #1a73e8;
+  --color-secondary: #5f6368;
+  --color-accent: #fbbc05;
+  --color-bg: #ffffff;
+  --color-text: #333333;
+  --color-muted: #888888;
+
+  /* Typography scale */
+  --font-base: 1rem;
+  --font-lg: 1.25rem;
+  --font-xl: 1.75rem;
+
+  /* Spacing unit (can pair with Tailwind) */
+  --space-1: 0.5rem;
+  --space-2: 1rem;
+  --space-3: 1.5rem;
+  --space-4: 2rem;
+}
+
+/* Example usage */
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+a {
+  color: var(--color-primary);
+}
+
+a:hover {
+  color: var(--color-secondary);
+}
