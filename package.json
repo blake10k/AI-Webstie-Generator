@@ -1,0 +1,12 @@
+{
+  "name": "ai-website-generator",
+  "version": "1.0.0",
+  "description": "A modern, responsive, Google-style website generated via AI",
+  "main": "index.html",
+  "scripts": {
+    "start": "open index.html",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
